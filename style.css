@@ -32,7 +32,7 @@ h3
 
 body
 {
-	background-color: white;
+	background-color: #fde3a7;
 	margin-bottom: 0px;
 	min-height: 100%;
 }
@@ -88,6 +88,7 @@ li
 	background-size: 100% 100%;
 	margin: 20px 10%;
 	padding: 8% 5%;
+	min-height: 385px;
 }
 
 .text
@@ -106,6 +107,11 @@ footer
 	margin-top:10px;
 	margin-bottom: 0px;
 	height: 130px;
+}
+
+footer li
+{
+	margin-top:5px;
 }
 
 .footer_content
@@ -144,6 +150,7 @@ footer
 ul 
 {
 	width:100%;
+	margin-bottom: 10px;
 }
 
 .social_text
@@ -174,6 +181,7 @@ ul
 		background-size: auto;
 		background-repeat: no-repeat;
 		margin: 10px, -20px;
+		min-height: none;
 	}
 
 	.reseau p
