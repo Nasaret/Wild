@@ -1,0 +1,177 @@
+h1
+{
+	font-size: 60px;
+	padding: 85px 0 30px 20px;
+}
+
+h3
+{
+	font-size: 35px;
+	padding: 30px 0 0 20px;
+}
+
+header
+{
+	background: url(images/header.jpg);
+	background-size: 100%;
+	position: relative; 
+	top: 0;
+	width: 100%;
+	margin-top: 0;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 120px;
+	margin-bottom: 20px;
+}
+
+li
+{
+	list-style: none;
+	padding: 10px;
+}
+
+body
+{
+	margin: 0;
+	background-color: #fde3a7;
+}
+
+}
+
+footer
+
+.header_links
+{
+	display: inline-flex;
+}
+
+.header_position
+{
+	padding: 20px 0 0 75%;
+	display: inline-flex;
+	margin-top: 30px;
+}
+
+.header_facebook
+{
+	margin: 0 50px 0 50px;
+}
+
+.social_text
+{
+	display:none;
+}
+
+.footer_content
+{
+	display: inline-flex;
+	width: 32%;
+}
+
+.social_link
+{
+	display:inline-flex;
+}
+
+.lebontitre
+{
+	color: white;
+}
+
+.reseau
+{
+	padding-left: 20px;
+}
+
+nav li
+{
+	display: inline-flex;
+	padding: 0 6% 0 6%;
+}
+
+nav
+{
+	background-color: #D09000;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+ul
+{
+	padding-bottom: 20px;
+}
+
+@media (max-width: 330px)
+{
+	h1
+	{
+		padding: 0;
+		font-size: 50px
+	}
+
+	h3
+	{
+		font-size: 20px;
+	}
+
+	.header_position
+	{
+		display: none;
+	}
+
+	header
+	{
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width: 320px;
+		padding: 20px;
+		padding-left: -30px;
+	}
+
+	nav
+	{
+		background-size:100% 100%;
+		margin-top: -20px;
+		width: 360px;
+		float: none;
+	}
+
+	nav li
+	{
+		margin: 5px;
+	}
+
+	footer
+	{
+		font-size:12px;
+	}
+
+	.social_image
+	{
+		display: none;
+	}
+
+	.social_text
+	{
+		display: inline-flex;
+		padding-left: -35px;
+	}
+
+	.reseau
+	{
+		padding: -10px 30px 0 0;
+		float: left;
+	}
+	.contact
+	{
+		float: right;
+		margin-top: -200px;
+		margin-left: 5px;
+	}
+
+	footer ul
+	{
+		margin-left:-30px;
+	}
+
+}
